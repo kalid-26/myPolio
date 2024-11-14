@@ -1,0 +1,725 @@
+/* Extra Small devices (phones) */
+@media (max-width: 599px) {
+    body{
+        overflow: hidden;
+    }
+    .cursor{
+        display: none;
+    }
+
+    /* preloader of website */
+
+    .preloader{ 
+        .content{
+            .timer{
+                h5{
+                    font-size: 3rem;
+                }
+            }
+       }
+    }
+
+    .main-page{
+    
+        header{
+           
+            nav{
+               
+                ul{
+                    right: -120%;
+                    width: 60%;
+                    height: 40vh;
+                    position: absolute;
+
+                    a{
+                        font-size: 1.5rem;
+                    }
+                }
+    
+                i{
+                    font-size: 2.3rem;
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+    
+            .hero{
+               
+                padding: 2rem;
+
+                h1{
+                   
+                    font-size: 3rem;
+                    line-height: 3rem;
+                }
+                p{
+                    font-weight: 200;
+                    font-size: 0.7rem;
+                    text-align: end;
+                }
+            }
+        }
+        
+        .about{
+            border: 0;
+            flex-direction: column;
+            gap: 5rem;  
+            height: auto;
+            .txt-contents{
+            
+                .tech-stack{
+                    flex-direction: column;
+                }
+           }
+        }
+
+        .projects{
+            
+            height: auto;
+
+            .title{
+                text-transform: uppercase;
+                width: 100%;
+                padding: 10px 30px;
+
+                h1{
+                    
+                    font-size: 4rem;
+                    font-weight: 900;
+                }
+                small{
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 0.7rem;
+                    padding-left: 5px;
+                }
+            }
+
+            .project-content{
+                padding: 50px 10px;
+        
+                .txt-box{
+                    h1{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+
+        .services{   
+            width: 100%;
+            height: 100vh;
+            background-color: var(--textWhite);
+            color: var(--textBlack);
+            margin-top: 80px;
+            padding: 50px 30px;
+            
+            .title{
+                h1{
+                    font-size: 4rem;
+                    font-weight: 900;
+                }
+                small{
+                    letter-spacing: 1px;
+                    font-weight: 400;
+                    font-size: 0.7rem;
+                    padding-left: 12px;
+                }
+            }
+          
+        }
+       
+        .contact{
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            margin-top: 50px;
+            padding: 50px 80px;
+            
+            .title{
+                h1{
+                    font-size: 3rem;
+                    font-weight: 900;
+                }
+            }
+    
+            .bottom{
+
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 10px;
+    
+                    section{
+                        grid-template-columns: 1fr;
+                        margin-bottom: 0;
+                    
+                        .form-group{
+                            margin-bottom: 20px;
+  
+                            input, textarea{
+                                width: 100%;
+                            }
+    
+                            input::placeholder{
+                                font-family: "Montserrat", sans-serif;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+
+        footer{
+            margin-top: 30px;
+            padding: 50px;
+            h5{
+                text-align: center;
+                font-weight: 200;
+                letter-spacing: 3px;
+            }
+        }
+    }
+
+}
+
+/* Small devices (tablets) */
+@media (min-width: 600px) and (max-width: 768px) {
+    .cursor{
+        display: none;
+    }
+
+
+    .preloader{ 
+        .content{
+            .timer{
+                h5{
+                    font-size: 5rem;
+                }
+            }
+       }
+    }
+
+    
+    .main-page{
+    
+        header{
+           
+            nav{
+               
+                ul{
+                    right: -120%;
+                    width: 60%;
+                    height: 45vh;
+
+                    a{
+                        font-size: 1.5rem;
+                    }
+                }
+    
+                i{
+                    font-size: 2.3rem;
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+    
+            .hero{
+               
+                padding: 2rem;
+
+                h1{
+                   
+                    font-size: 3rem;
+                    line-height: 3rem;
+                }
+                p{
+                    font-weight: 200;
+                    font-size: 0.7rem;
+                    text-align: end;
+                }
+            }
+        }
+        
+        .about{
+            flex-direction: column;
+            gap: 5rem;  
+            border: 0;
+
+            .txt-contents{
+            
+                .tech-stack{
+                    flex-direction: column;
+                }
+           }
+        }
+
+        .projects{
+            padding-top: 50rem;
+
+            .title{
+                text-transform: uppercase;
+                width: 100%;
+                padding: 10px 80px;
+
+                h1{
+                    
+                    font-size: 4rem;
+                    font-weight: 900;
+                }
+                small{
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 0.7rem;
+                    padding-left: 12px;
+                }
+            }
+
+            .project-content{
+                padding: 50px 20px;
+        
+                .txt-box{
+                    h1{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+
+        .services{   
+            width: 100%;
+            height: 100vh;
+            background-color: var(--textWhite);
+            color: var(--textBlack);
+            margin-top: 30rem;
+            padding: 50px 30px;
+            
+            .title{
+                h1{
+                    font-size: 4rem;
+                    font-weight: 900;
+                }
+                small{
+                    letter-spacing: 1px;
+                    font-weight: 400;
+                    font-size: 0.7rem;
+                    padding-left: 12px;
+                }
+            }
+          
+        }
+       
+        .contact{
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            margin-top: 50px;
+            padding: 50px 80px;
+            
+            .title{
+                h1{
+                    font-size: 3rem;
+                    font-weight: 900;
+                }
+            }
+    
+            .bottom{
+
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 10px;
+    
+                    section{
+                        grid-template-columns: 1fr;
+                        margin-bottom: 0;
+                    
+                        .form-group{
+                            margin-bottom: 20px;
+  
+                            input, textarea{
+                                width: 100%;
+                            }
+    
+                            input::placeholder{
+                                font-family: "Montserrat", sans-serif;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+
+        footer{
+            margin-top: 30px;
+            padding: 50px;
+            h5{
+                text-align: center;
+                font-weight: 200;
+                letter-spacing: 3px;
+            }
+        }
+    }
+
+}
+
+/* Medium devices (tablets & small desktops) */
+@media (min-width: 769px) and (max-width: 991px) {
+    .cursor{
+        display: none;
+    }
+
+    .main-page{
+    
+        header{
+           
+            nav{
+               
+                ul{
+                    right: -120%;
+                    width: 50%;
+                    height: 40vh;
+
+                    a{
+                        font-size: 1.5rem;
+                    }
+                }
+    
+                i{
+                    font-size: 2.3rem;
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+    
+            .hero{
+               
+                padding: 2rem;
+
+                h1{
+                   
+                    font-size: 4rem;
+                    line-height: 3.5rem;
+                }
+                p{
+                    font-weight: 200;
+                    font-size: 0.7rem;
+                    text-align: end;
+                }
+            }
+        }
+        
+        .about{
+            flex-direction: column;
+            gap: 5rem; 
+            border: 0;
+            
+            .txt-contents{
+            
+                .tech-stack{
+                    flex-direction: column;
+                }
+           }
+        }
+
+        .projects{
+            padding-top: 50rem;
+
+            .title{
+                text-transform: uppercase;
+                width: 100%;
+                padding: 10px 80px;
+
+                h1{
+                    
+                    font-size: 4rem;
+                    font-weight: 900;
+                }
+                small{
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 0.7rem;
+                    padding-left: 12px;
+                }
+            }
+
+            .project-content{
+                padding: 50px 20px;
+        
+                .txt-box{
+                    h1{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+
+        .services{   
+            width: 100%;
+            height: 100vh;
+            background-color: var(--textWhite);
+            color: var(--textBlack);
+            margin-top: 30rem;
+            padding: 50px 30px;
+            
+            .title{
+                h1{
+                    font-size: 4rem;
+                    font-weight: 900;
+                }
+                small{
+                    letter-spacing: 1px;
+                    font-weight: 400;
+                    font-size: 0.7rem;
+                    padding-left: 12px;
+                }
+            }
+          
+        }
+       
+        .contact{
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            margin-top: 50px;
+            padding: 50px 80px;
+            
+            .title{
+                h1{
+                    font-size: 3rem;
+                    font-weight: 900;
+                }
+            }
+    
+            .bottom{
+
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 10px;
+    
+                    section{
+                        grid-template-columns: 1fr;
+                        margin-bottom: 0;
+                    
+                        .form-group{
+                            margin-bottom: 20px;
+  
+                            input, textarea{
+                                width: 100%;
+                            }
+    
+                            input::placeholder{
+                                font-family: "Montserrat", sans-serif;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+
+        footer{
+            margin-top: 30px;
+            padding: 50px;
+            h5{
+                text-align: center;
+                font-weight: 200;
+                letter-spacing: 3px;
+            }
+        }
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cursor{
+        display: none;
+    }
+
+    .main-page{
+    
+        header{
+           
+            nav{
+               
+                ul{
+                    right: -120%;
+                    width: 50%;
+                    height: 40vh;
+
+                    a{
+                        font-size: 1.7rem;
+                    }
+                }
+    
+                i{
+                    font-size: 2.3rem;
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+    
+            .hero{
+               
+                padding: 2rem;
+
+                h1{
+                   
+                    font-size: 5rem;
+                    line-height: 4.2rem;
+                }
+                p{
+                    font-weight: 200;
+                    font-size: 1rem;
+                    text-align: end;
+                }
+            }
+        }
+        
+        .about{
+            flex-direction: column;
+            gap: 5rem; 
+            border: 0;
+            
+            .txt-contents{
+                
+                h3{
+                    font-size: 1.3rem;
+                   
+                }
+    
+                p{
+                    font-size: 1rem;
+                    
+                    span{
+                        font-weight: 600;
+                    }
+                }
+                .tech-stack{
+                    flex-direction: column;
+                }
+           }
+        }
+
+        .projects{
+            padding-top: 70rem;
+
+            .title{
+                text-transform: uppercase;
+                width: 100%;
+                padding: 10px 80px;
+
+                h1{
+                    
+                    font-size: 4rem;
+                    font-weight: 900;
+                }
+                small{
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 0.7rem;
+                    padding-left: 12px;
+                }
+            }
+
+            .project-content{
+                padding: 50px 20px;
+        
+                .txt-box{
+                    h1{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+
+        .services{   
+            width: 100%;
+            height: 100vh;
+            background-color: var(--textWhite);
+            color: var(--textBlack);
+            margin-top: 40rem;
+            padding: 50px 30px;
+            
+            .title{
+                h1{
+                    font-size: 4rem;
+                    font-weight: 900;
+                }
+                small{
+                    letter-spacing: 1px;
+                    font-weight: 400;
+                    font-size: 0.7rem;
+                    padding-left: 12px;
+                }
+            }
+          
+        }
+       
+        .contact{
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            margin-top: 50px;
+            padding: 50px 80px;
+            
+            .title{
+                h1{
+                    font-size: 3rem;
+                    font-weight: 900;
+                }
+            }
+    
+            .bottom{
+
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 10px;
+    
+                    section{
+                        grid-template-columns: 1fr;
+                        margin-bottom: 0;
+                    
+                        .form-group{
+                            margin-bottom: 20px;
+  
+                            input, textarea{
+                                width: 100%;
+                            }
+    
+                            input::placeholder{
+                                font-family: "Montserrat", sans-serif;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+
+        footer{
+            margin-top: 30px;
+            padding: 50px;
+            h5{
+                text-align: center;
+                font-weight: 200;
+                letter-spacing: 3px;
+            }
+        }
+    }
+
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  
+}
+
+/* Ultra-wide devices (4K monitors) */
+@media (min-width: 1600px) {
+    
+}
