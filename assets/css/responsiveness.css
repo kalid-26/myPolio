@@ -44,8 +44,9 @@
             }
     
             .hero{
-               
-                padding: 2rem;
+                /* height: auto; */
+                /* max-width: 100%; */
+                padding: 2rem 0;
 
                 h1{
                    
@@ -64,7 +65,7 @@
             border: 0;
             flex-direction: column;
             gap: 5rem;  
-            height: auto;
+            height: 100vh;
             .txt-contents{
             
                 .tech-stack{
